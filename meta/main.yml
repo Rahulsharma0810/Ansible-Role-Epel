@@ -1,0 +1,20 @@
+---
+galaxy_info:
+  author: Rahul Sharma
+  description: Install Epel Repo on Debian and RPMs.
+  license: MIT
+  min_ansible_version: 1.2
+
+  platforms:
+    - name: EL
+      versions:
+        - all
+    - name: Fedora
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+  categories:
+  - system
+dependencies: []

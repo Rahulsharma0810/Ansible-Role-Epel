@@ -1,0 +1,11 @@
+- block:
+  - name: INSTALL EPEL REPO
+    package:
+      name: epel-release
+      state: present
+
+- name: UPGRADE ALL PACKAGES
+  package:
+    name: '*'
+    state: latest
+  become: true
